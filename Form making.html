@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Making With HTML</title>
+</head>
+<body style="font-family:verdana; color:rgb(9, 93, 250)">
+    <form action="">
+<!--creat a Sign Up Form-->
+    <h2 style="text-align:center; color:darkblue" >
+            Sign  Up Form</h2>
+        <hr>
+        <br>
+    <table border="1" align="center" bgcolor="#F1EAEA" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                 <!--Name-->   
+                 <label for="user"> &nbsp; Name:</label> <br> &nbsp;
+                 <input type="text" name="user" id="user" placeholder="User Name" required>
+                 <!--end Name-->
+
+                 <br><br>
+                 
+                 <!--Email-->
+                 <label for="email"> &nbsp; Email:</label> <br> &nbsp;
+                 <input type="email" id="email" name="Useremail" placeholder="@gmail.com" required>
+                 <!--end Email-->
+
+                 <br><br>
+
+                 <!--Password-->
+                 <label for="password"> &nbsp; Password:</label> <br> &nbsp;
+                 <input type="password" name="password" id="pass" placeholder="00000000" required>
+                 <!--end Password-->
+
+                 <br><br>
+
+                 <!--Phone-->
+                 <lable for="phn"> &nbsp; Phone:</lable> <br> &nbsp;
+                 <select name="code">
+                     <option value="+008">+008</option>
+                     <option value="+999">+999</option>
+                     <option value="+880">+880</option>
+                     <option value="+123">+122</option>
+                 </select>
+                 <input type="number" id="phone" placeholder="1234567890" required>
+                 <!--End Phone-->
+
+                 <br><br>
+
+                 <!--Country-->
+                 <label for="country"> &nbsp; Country:</label><br> &nbsp; 
+                 <input list="con">
+                 <datalist id="con">
+                        <option value="Bangladesh"></option>
+                        <option value="India"></option>
+                        <option value="Canada"></option>
+                 </datalist>
+                 <!--End Country-->
+
+                 <br><br>
+
+                 <!--Gender-->
+                 &nbsp; Gender:
+                 <input type="radio" id="gen1" name="gender">
+                 <label for="gen1">Male</label> &nbsp;
+                 <input type="radio" id="gen2" name="gender">
+                 <lable for="gen">Famale<label>
+                 <!--End Gender-->
+                    
+                 <br><br>
+
+                 <!--date-->
+                 <label for="date"> &nbsp; Date of Birth:</label>
+                 <input type="date" id="date" name="dob">
+                 <!-- End date-->
+
+                 <br><br>
+
+                 <!--Time-->
+                 <label for="time"> &nbsp; Time:</label>
+                 <input type="time" name="tm" id="time">  
+                 <!--End Time-->
+
+                 <br><br>
+
+                 <!--File-->
+                 <label for="file"> &nbsp; Choose Photo:</label> <br> &nbsp;
+                 <input type="file" name="file" id="fl">
+                 <!--End File-->
+
+                 <br><br>
+
+                 <!--Colors-->
+                 <label for="colors"> &nbsp; Colors:</label>
+                 <input type="color" name="color" id="colors">
+                 <!--End Colors-->
+
+                 <br><br>
+
+                 <!--Checkbox-->
+                 &nbsp;
+                 <input type="checkbox" id="vehiclel1" name="vec">
+                 <label for="vehiclel1"> I have a Bus</label>
+                 <br> &nbsp;
+                 
+                 <input type="checkbox" id="vehiclel2" name="vec">
+                 <label for="vehiclel2">I have a Car</label>
+                 <!--End Checkbox-->
+
+                 <br><br>
+
+                 <!--Textarea-->
+                 &nbsp; Comment: <br>
+                 &nbsp;<textarea name="comment" cols="60" rows="3"></textarea> &nbsp;
+                 <!--End Textarea-->                                      
+
+                 <br><br>
+                 <!--Send or Reset Button-->
+                 <p style="text-align: center;">
+                 <input type="submit" value="Sand"> &nbsp;&nbsp;
+                 <input type="Reset" value="Reset">
+                 <!-- End Send or Reset Button-->
+
+                 </p><br>
+
+                 
+                 <marquee behavior="" direction="rtl"> < I make a HTML Form. > </marquee>
+                 
+                 
+            </td>                   
+        </tr>
+    </table>      
+</form>
+<!--End Sign Up Form-->
+</body>
+</html>
